@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Work",
+    "color": "#0066CC",
+    "icon": "Briefcase",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Personal",
+    "color": "#10B981",
+    "icon": "User",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Health",
+    "color": "#EF4444",
+    "icon": "Heart",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Learning",
+    "color": "#8B5CF6",
+    "icon": "BookOpen",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Hobbies",
+    "color": "#F59E0B",
+    "icon": "Palette",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Finance",
+    "color": "#06B6D4",
+    "icon": "DollarSign",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Shopping",
+    "color": "#EC4899",
+    "icon": "ShoppingBag",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Travel",
+    "color": "#84CC16",
+    "icon": "Plane",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  }
+]

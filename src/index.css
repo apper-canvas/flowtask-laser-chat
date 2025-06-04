@@ -1,0 +1,104 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .glass-morphism-dark {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #0066CC 0%, #3399FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(135deg, #0066CC 0%, #004499 100%);
+  }
+  
+  .drag-handle {
+    cursor: grab;
+  }
+  
+  .drag-handle:active {
+    cursor: grabbing;
+  }
+  
+  .todo-item-enter {
+    animation: slide-in 0.3s ease-out;
+  }
+  
+  .todo-item-exit {
+    animation: fade-out 0.3s ease-in;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-surface-100 dark:bg-surface-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-300 dark:bg-surface-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-surface-400 dark:bg-surface-500;
+}
+
+/* Focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-surface-800;
+}
+
+/* React Beautiful DnD styles */
+.react-beautiful-dnd-dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+}
+
+.react-beautiful-dnd-drag-handle {
+  cursor: grab;
+}
+
+.react-beautiful-dnd-drag-handle:active {
+  cursor: grabbing;
+}

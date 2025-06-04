@@ -1,0 +1,152 @@
+[
+  {
+    "id": "1",
+    "text": "Complete quarterly business review presentation",
+    "completed": false,
+    "priority": "high",
+    "category": "Work",
+    "dueDate": "2024-01-20T00:00:00.000Z",
+    "createdAt": "2024-01-15T09:00:00.000Z",
+    "updatedAt": "2024-01-15T09:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "text": "Buy groceries for the week",
+    "completed": true,
+    "priority": "medium",
+    "category": "Personal",
+    "dueDate": null,
+    "createdAt": "2024-01-14T18:30:00.000Z",
+    "updatedAt": "2024-01-15T08:45:00.000Z"
+  },
+  {
+    "id": "3",
+    "text": "Schedule dentist appointment",
+    "completed": false,
+    "priority": "medium",
+    "category": "Health",
+    "dueDate": "2024-01-25T00:00:00.000Z",
+    "createdAt": "2024-01-13T14:20:00.000Z",
+    "updatedAt": "2024-01-13T14:20:00.000Z"
+  },
+  {
+    "id": "4",
+    "text": "Read 30 pages of 'Atomic Habits'",
+    "completed": false,
+    "priority": "low",
+    "category": "Learning",
+    "dueDate": null,
+    "createdAt": "2024-01-12T20:15:00.000Z",
+    "updatedAt": "2024-01-12T20:15:00.000Z"
+  },
+  {
+    "id": "5",
+    "text": "Call mom for her birthday",
+    "completed": true,
+    "priority": "high",
+    "category": "Personal",
+    "dueDate": "2024-01-18T00:00:00.000Z",
+    "createdAt": "2024-01-11T16:00:00.000Z",
+    "updatedAt": "2024-01-18T10:30:00.000Z"
+  },
+  {
+    "id": "6",
+    "text": "Update portfolio website with new projects",
+    "completed": false,
+    "priority": "medium",
+    "category": "Work",
+    "dueDate": "2024-01-30T00:00:00.000Z",
+    "createdAt": "2024-01-10T11:45:00.000Z",
+    "updatedAt": "2024-01-10T11:45:00.000Z"
+  },
+  {
+    "id": "7",
+    "text": "Go for a 30-minute run",
+    "completed": false,
+    "priority": "medium",
+    "category": "Health",
+    "dueDate": null,
+    "createdAt": "2024-01-09T07:00:00.000Z",
+    "updatedAt": "2024-01-09T07:00:00.000Z"
+  },
+  {
+    "id": "8",
+    "text": "Research vacation destinations for summer",
+    "completed": false,
+    "priority": "low",
+    "category": "Personal",
+    "dueDate": "2024-02-15T00:00:00.000Z",
+    "createdAt": "2024-01-08T19:30:00.000Z",
+    "updatedAt": "2024-01-08T19:30:00.000Z"
+  },
+  {
+    "id": "9",
+    "text": "Review and organize email inbox",
+    "completed": true,
+    "priority": "low",
+    "category": "Work",
+    "dueDate": null,
+    "createdAt": "2024-01-07T15:20:00.000Z",
+    "updatedAt": "2024-01-14T17:10:00.000Z"
+  },
+  {
+    "id": "10",
+    "text": "Learn React Native basics",
+    "completed": false,
+    "priority": "high",
+    "category": "Learning",
+    "dueDate": "2024-02-01T00:00:00.000Z",
+    "createdAt": "2024-01-06T13:15:00.000Z",
+    "updatedAt": "2024-01-06T13:15:00.000Z"
+  },
+  {
+    "id": "11",
+    "text": "Clean and organize home office",
+    "completed": false,
+    "priority": "medium",
+    "category": "Personal",
+    "dueDate": "2024-01-21T00:00:00.000Z",
+    "createdAt": "2024-01-05T12:00:00.000Z",
+    "updatedAt": "2024-01-05T12:00:00.000Z"
+  },
+  {
+    "id": "12",
+    "text": "Submit monthly expense report",
+    "completed": true,
+    "priority": "high",
+    "category": "Work",
+    "dueDate": "2024-01-16T00:00:00.000Z",
+    "createdAt": "2024-01-04T09:30:00.000Z",
+    "updatedAt": "2024-01-16T11:20:00.000Z"
+  },
+  {
+    "id": "13",
+    "text": "Practice guitar for 45 minutes",
+    "completed": false,
+    "priority": "low",
+    "category": "Hobbies",
+    "dueDate": null,
+    "createdAt": "2024-01-03T18:45:00.000Z",
+    "updatedAt": "2024-01-03T18:45:00.000Z"
+  },
+  {
+    "id": "14",
+    "text": "Plan weekend hiking trip",
+    "completed": false,
+    "priority": "medium",
+    "category": "Personal",
+    "dueDate": "2024-01-22T00:00:00.000Z",
+    "createdAt": "2024-01-02T21:10:00.000Z",
+    "updatedAt": "2024-01-02T21:10:00.000Z"
+  },
+  {
+    "id": "15",
+    "text": "Backup important files to cloud storage",
+    "completed": false,
+    "priority": "medium",
+    "category": "Work",
+    "dueDate": "2024-01-28T00:00:00.000Z",
+    "createdAt": "2024-01-01T14:00:00.000Z",
+    "updatedAt": "2024-01-01T14:00:00.000Z"
+  }
+]
