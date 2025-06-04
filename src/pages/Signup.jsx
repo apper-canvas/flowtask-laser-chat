@@ -25,10 +25,10 @@ function Signup() {
           <p className="mt-2 text-surface-600 dark:text-surface-400">Sign up for your account</p>
         </div>
         <div id="authentication" className="min-h-[400px]" />
-        <div className="text-center mt-4">
-          <p className="text-sm text-surface-600 dark:text-surface-400">
+<div className="text-center mt-4">
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             Already have an account?{' '}
-            <Link to="/login" className="font-medium text-primary hover:text-primary-dark">
+            <Link to="/login" className="font-medium text-primary-600 hover:text-primary-700">
               Sign in
             </Link>
           </p>

@@ -25,10 +25,10 @@ function Login() {
           <p className="mt-2 text-surface-600 dark:text-surface-400">Sign in to your account</p>
         </div>
         <div id="authentication" className="min-h-[400px]" />
-        <div className="text-center mt-4">
-          <p className="text-sm text-surface-600 dark:text-surface-400">
+<div className="text-center mt-4">
+          <p className="text-sm text-gray-600 dark:text-gray-400">
             Don't have an account?{' '}
-            <Link to="/signup" className="font-medium text-primary hover:text-primary-dark">
+            <Link to="/signup" className="font-medium text-primary-600 hover:text-primary-700">
               Sign up
             </Link>
           </p>

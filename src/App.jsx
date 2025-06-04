@@ -40,12 +40,21 @@ function App() {
         setIsInitialized(true);
         // CRITICAL: This exact currentPath logic must be preserved in all implementations
 // DO NOT simplify or modify this pattern as it ensures proper redirection flow
-        let currentPath = window.location.pathname + window.location.search;
+let currentPath = window.location.pathname + window.location.search;
         let redirectPath = null;
         try {
-          redirectPath = new URLSearchParams(window.location.search).get('redirect');
+          if (typeof URLSearchParams !== 'undefined') {
+            redirectPath = new URLSearchParams(window.location.search).get('redirect');
+          } else {
+            // Fallback for environments without URLSearchParams
+            const search = window.location.search;
+            if (search) {
+              const match = search.match(/[?&]redirect=([^&]*)/);
+              redirectPath = match ? decodeURIComponent(match[1]) : null;
+            }
+          }
         } catch (error) {
-          console.warn('URLSearchParams not available:', error);
+          console.warn('URL parameter parsing failed:', error);
         }
         const isAuthPage = currentPath.includes('/login') || currentPath.includes('/signup') || currentPath.includes(
           '/callback') || currentPath.includes('/error');
@@ -119,9 +128,9 @@ function App() {
     return <div className="loading">Initializing application...</div>;
   }
 
-  return (
+return (
     <AuthContext.Provider value={authMethods}>
-      <div className="min-h-screen bg-gradient-to-br from-surface-50 to-surface-100 dark:from-surface-900 dark:to-surface-800 transition-colors duration-300">
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
